@@ -28,7 +28,7 @@ def iniciaprograma():
             counter += 1
             print('Loading...')
         
-        print(f'O ganhador é: {lista_correta[rd.randrange(len(lista_correta))]}')
+        print(f'O ganhador é: {lista_de_numeros_rifa[rd.randrange(len(lista_de_numeros_rifa))]}')
     else:
         iniciaprograma()
 
